@@ -8,35 +8,21 @@ $tiffany: #4AB7BD;
 $yellow: #FEC171;
 $panGreen: #30B08F;
 
-// 默认菜单主题风格
-$base-menu-color: #bfcbd9;
-$base-menu-color-active: #f4f4f5;
-$base-menu-background: #304156;
-$base-logo-title-color: #ffffff;
+// 千叶珠宝 — 黑金主题
+$base-menu-color: #d4af6a;
+$base-menu-color-active: #f5e6c0;
+$base-menu-background: #1a1a1a;
+$base-logo-title-color: #d4af6a;
 
 $base-menu-light-color: rgba(0, 0, 0, 0.7);
 $base-menu-light-background: #ffffff;
-$base-logo-light-title-color: #001529;
+$base-logo-light-title-color: #1a1a1a;
 
-$base-sub-menu-background: #1f2d3d;
-$base-sub-menu-hover: #001528;
+$base-sub-menu-background: #111111;
+$base-sub-menu-hover: #2a2a2a;
 
-// 自定义暗色菜单风格
-/**
-$base-menu-color:hsla(0,0%,100%,.65);
-$base-menu-color-active:#fff;
-$base-menu-background:#001529;
-$base-logo-title-color: #ffffff;
-
-$base-menu-light-color:rgba(0,0,0,.70);
-$base-menu-light-background:#ffffff;
-$base-logo-light-title-color: #001529;
-
-$base-sub-menu-background:#000c17;
-$base-sub-menu-hover:#001528;
-*/
-
-$--color-primary: #409EFF;
+// 主色调 金色
+$--color-primary: #c9a84c;
 $--color-success: #67C23A;
 $--color-warning: #E6A23C;
 $--color-danger: #F56C6C;
@@ -44,8 +30,6 @@ $--color-info: #909399;
 
 $base-sidebar-width: 200px;
 
-// the :export directive is the magic sauce for webpack
-// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
 :export {
   menuColor: $base-menu-color;
   menuLightColor: $base-menu-light-color;
