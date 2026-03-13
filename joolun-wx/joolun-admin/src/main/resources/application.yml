@@ -153,7 +153,7 @@ wx:
   ma:
     configs:
       - appId: wx90d04cb5be0b72d5
-        secret: xxxxxxxxxxxxx
+        secret: 9ef2089b42ed547e7f17cd0baa185b71
         # 微信支付商户号（暂时留空，本地测试不需要）
         mchId: 
         # 微信支付商户APIv2密钥（暂时留空）

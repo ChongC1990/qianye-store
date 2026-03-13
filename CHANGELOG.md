@@ -1,5 +1,15 @@
 # CHANGELOG - 千叶珠宝管理系统
 
+## [1.0.3] - 2026-03-13
+
+### Added
+- 小程序 AppID 配置：`wx90d04cb5be0b72d5`
+- 小程序 Secret 写入后端 `application.yml`
+- `project.config.json` 更新 appid 及项目名为「千叶珠宝小程序」
+- `env.js` 关闭广告、添加真机调试地址注释（192.168.31.240:7500）
+
+---
+
 ## [1.0.2] - 2026-03-13
 
 ### Changed
