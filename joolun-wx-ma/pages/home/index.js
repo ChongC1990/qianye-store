@@ -19,10 +19,10 @@ Page({
     goodsListNew: [],
     goodsListHot: [],
     swiperData: [
-      'https://joolun-base-test.oss-cn-zhangjiakou.aliyuncs.com/1/material/c888e1d3-f542-4b4e-aa43-be9d50cc0696.jpg',
-      'https://joolun-base-test.oss-cn-zhangjiakou.aliyuncs.com/1/material/a5e3b9f4-f1fe-4bb2-b487-13f4395ef187.jpg',
-      'https://joolun-base-test.oss-cn-zhangjiakou.aliyuncs.com/1/material/c8fd87ff-ca5d-4f95-8f81-e99cae48b0f7.jpg',
-      'https://joolun-base-test.oss-cn-zhangjiakou.aliyuncs.com/1/material/bf176bd5-3487-4b61-8d30-1cc2ad95b8ac.jpg'
+      'http://221.237.11.62:10087/img/jewelry/banner1.jpg',
+      'http://221.237.11.62:10087/img/jewelry/banner2.jpg',
+      'http://221.237.11.62:10087/img/jewelry/banner3.jpg',
+      'http://221.237.11.62:10087/img/jewelry/diamond_necklace.jpg'
     ],
     cardCur: 0,
     noticeData: []
@@ -46,7 +46,7 @@ Page({
     this.goodsPage()
   },
   onShareAppMessage: function () {
-    let title = 'JooLun商城源码-小程序演示'
+    let title = '千叶珠宝 · 以珠宝传递情感'
     let path = 'pages/home/index'
     return {
       title: title,

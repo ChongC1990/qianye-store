@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "商城首页",
+  "navigationBarTitleText": "千叶珠宝",
+  "navigationBarBackgroundColor": "#1a1a1a",
+  "navigationBarTextStyle": "white",
   "enablePullDownRefresh": true,
   "usingComponents": {
     "goods-card": "/components/goods-card-index/index",

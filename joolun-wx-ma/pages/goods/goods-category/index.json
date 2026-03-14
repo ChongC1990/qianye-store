@@ -1,6 +1,6 @@
 {
-  "navigationBarTitleText": "商品分类",
-  "usingComponents": {
-    
-  }
+  "navigationBarTitleText": "珠宝分类",
+  "navigationBarBackgroundColor": "#1a1a1a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
 }
