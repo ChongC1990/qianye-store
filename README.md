@@ -1,135 +1,125 @@
-<img alt="JooLun" src="https://img.shields.io/badge/Java-17-brightgreen.svg"/>
-<img alt="JooLun" src="https://img.shields.io/badge/SpringBoot-3.5.10-green.svg"/>
-<a href="https://gitee.com/joolun/JooLun-wx" target="_blank">
-    <img alt="JooLun" src="https://gitee.com/joolun/JooLun-wx/badge/star.svg"/>
-</a>
-<img alt="JooLun" src="https://img.shields.io/badge/license-MIT-blue.svg"/>
-<a href="https://www.joolun.com/" target="_blank">
-    <img alt="JooLun" src="https://img.shields.io/badge/Author-JooLun-orange.svg"/>
-</a>
+# 千叶珠宝 · 管理系统
 
-### [阿里云服务器低至￥91.80/年](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=wnw8gle1)
-### MIT真开源！！！如果对您有帮助，记得点右上角 "Star" ❤️ 支持一下哦 谢谢！
-#### 该项目已实时托管置Gitee，请直接使用boot3分支；遇到问题或发现bug请统一到Gitee发[Issues](https://gitee.com/joolun/JooLun-wx/issues)提出来，我们会定期处理
-### 平台简介
-* 基于[RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue) SpringBoot3版本二开，集成了[MybatisPlus](https://github.com/baomidou/mybatis-plus)、[Avue](https://gitee.com/smallweigit/avue)、[WxJava](https://gitee.com/binary/weixin-java-tools) SDK
-* MIT开源的小程序商城二开利器，放心使用
-* 专业的微信管理框架并加入小程序商城，是用来学习和实际项目的不二选择
-* 前端采用Vue3、Element-Plus、Avue3。
-* 后端采用Spring Boot3、Spring Security、Redis & Jwt、Mybatis Plus、WxJava。
-* 小程序端采用原生框架+Color UI。
-* 权限认证使用Jwt，支持多终端认证系统。
-* 支持加载动态权限菜单，多方式轻松权限控制。
-* 高效率开发，使用代码生成器可以一键生成前后端代码。
-* 开源版不提供人工服务，遇到问题或发现bug请统一到码云gitee发[Issues](https://gitee.com/joolun/JooLun-wx/issues)提出来，我们会定期处理
-* 请按照自己业务需求进行测试后再使用，因框架问题造成的任何损失JooLun概不负责
-* 阿里云优惠券：[点我领取](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=wnw8gle1)
-### 项目说明
-* joolun-wx：java后端
-* joolun-wx-ui：后台管理页面
-* joolun-wx-ma：小程序商城端
-### 演示环境
-* 管理后台：https://demo2.joolun.com/
-* 演示小程序：
+> **来我心里 · 以珠宝传递情感**
 
-![输入图片说明](joolun-wx/doc/Joolun_Plus_11.png)
-### 系统需求
-* JDK = 17
-* MySQL >= 5.8
-* Maven >= 3.0
+基于 [JooLun-wx](https://gitee.com/joolun/JooLun-wx) 二次开发的珠宝电商管理平台，涵盖后台管理系统、小程序商城和服务端 API，专为千叶珠宝品牌定制。
 
-### [运行系统](https://gitee.com/joolun/JooLun-wx/wikis/A%20%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C?sort_id=2235756)
+---
 
-### [部署系统](https://gitee.com/joolun/JooLun-wx/wikis/B%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E7%B3%BB%E7%BB%9F?sort_id=2236020)
+## 项目结构
 
-### [公众号接入教程](https://gitee.com/joolun/JooLun-wx/wikis/C%20%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%A5%E5%85%A5%E6%95%99%E7%A8%8B?sort_id=2236061)
+| 目录 | 说明 |
+|------|------|
+| `joolun-wx` | Java 后端服务（Spring Boot 3） |
+| `joolun-wx-ui` | 后台管理前端（Vue3 + Element-Plus） |
+| `joolun-wx-ma` | 微信小程序商城端 |
 
-### 内置功能
-1.  小程序用户管理
-1.  商品分类
-1.  商品管理
-1.  订单管理
-1.  商城购物车
-1.  用户收货地址
-1.  公众号用户标签管理
-1.  公众号用户管理
-1.  公众号用户消息管理
-1.  公众号素材管理
-1.  公众号自定义菜单管理
-1.  公众号消息自动回复管理
-1.  公众号营销数据统计
-1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
-2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
-3.  岗位管理：配置系统用户所属担任职务。
-4.  菜单管理：配置系统菜单，操作权限，按钮权限标识等。
-5.  角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
-6.  字典管理：对系统中经常使用的一些较为固定的数据进行维护。
-7.  参数管理：对系统动态配置常用参数。
-8.  通知公告：系统通知公告信息发布维护。
-9.  操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
-10. 登录日志：系统登录日志记录查询包含登录异常。
-11. 在线用户：当前系统中活跃用户状态监控。
-12. 定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。
-13. 代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。
-14. 系统接口：根据业务代码自动生成相关的api接口文档。
-15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
-16. 缓存监控：对系统的缓存信息查询，命令统计等。
-17. 在线构建器：拖动表单元素生成相应的HTML代码。
-18. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+---
 
-### 项目截图
-<table>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2021/0206/113219_bd774cf3_5079715.png"/></td>
-        <td><img src="https://images.gitee.com/uploads/images/2021/0206/113232_e3bcb374_5079715.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2021/0206/113243_3f8c1ec2_5079715.png"/></td>
-        <td><img src="https://images.gitee.com/uploads/images/2021/0206/113256_cf5bb28b_5079715.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0305/161111_71e7f26a_5079715.png"/></td>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0305/161331_bae82a4f_5079715.png"/></td>
-    </tr>
-</table>
+## 技术栈
 
-### 区别
-|  版本  |  基本框架  |  相应功能  |  包含终端  |  了解更多  |
-|---|---|---|---|---|
-|  开源版  |  RuoYi SpringBoot单应用   |  功能简单，单租户（单商城）、单公众号、单小程序  |  只有小程序  |  https://gitee.com/joolun/JooLun-wx  |
-|  其他产品  |  SpringCloud微服务、Nacos、Sentinel、vue前后端分离、uniapp等  |  功能强大、模块完善，多样化的营销工具，商城自定义拖拽装修，支付宝、微信服务商支付，支持阿里oss、七牛云、腾讯cos、minio多种存储方式，多租户（多商城）、多店铺、多公众号、多小程序等等  |  小程序、公众号h5、PC-h5、安卓、ios、商户端app等  |  https://www.joolun.com/  |
+**后端**
+- Spring Boot 3 + Spring Security + JWT
+- MyBatis Plus + MySQL
+- Redis + WxJava SDK
 
-### 其他产品截图
-![输入图片说明](joolun-wx-ma/public/img/2.jpg)
-![输入图片说明](joolun-wx-ma/public/img/3.jpg)
-![输入图片说明](joolun-wx-ma/public/img/4.jpg)
-![输入图片说明](joolun-wx-ma/public/img/5.jpg)
-![输入图片说明](joolun-wx-ma/public/img/6.jpg)
-![输入图片说明](joolun-wx-ma/public/img/7.jpg)
-![输入图片说明](joolun-wx-ma/public/img/8.jpg)
-![输入图片说明](joolun-wx-ma/public/img/9.jpg)
-![输入图片说明](joolun-wx-ma/public/img/10.jpg)
-![输入图片说明](joolun-wx-ma/public/img/11.jpg)
-![输入图片说明](joolun-wx-ma/public/img/12.jpg)
-![输入图片说明](joolun-wx-ma/public/img/13.jpg)
-![输入图片说明](joolun-wx-ma/public/img/14.jpg)
-![输入图片说明](joolun-wx-ma/public/img/15.jpg)
-![输入图片说明](joolun-wx-ma/public/img/16.jpg)
-![输入图片说明](joolun-wx-ma/public/img/17.jpg)
-![输入图片说明](joolun-wx-ma/public/img/18.jpg)
-![输入图片说明](joolun-wx-ma/public/img/19.jpg)
+**前端**
+- Vue3 + Element-Plus + Avue3
 
-<table>
-    <tr>
-        <td><img src="https://23592599.s21i.faiusr.com/4/ABUIABAEGAAg2s7hmAYo_sam-wMw6Ac42AQ.png.webp"/></td>
-        <td><img src="https://23592599.s21i.faiusr.com/4/ABUIABAEGAAg2s7hmAYoisCngQYw6Ac42AQ.png.webp"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://23592599.s21i.faiusr.com/4/ABUIABAEGAAg2c7hmAYo6PLorQcw6Ac42AQ.png.webp"/></td>
-        <td><img src="https://23592599.s21i.faiusr.com/4/ABUIABAEGAAg2s7hmAYo-duw0gQw6Ac42AQ.png.webp"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://23592599.s21i.faiusr.com/4/ABUIABAEGAAguc-hmAYopdHjxQUw6Ac42AQ.png.webp"/></td>
-        <td><img src="https://23592599.s21i.faiusr.com/4/ABUIABAEGAAg2s7hmAYowPiB2AIw6Ac42AQ.png.webp"/></td>
-    </tr>
-</table>
+**小程序**
+- 微信原生框架 + Color UI
+- AppID：`wx90d04cb5be0b72d5`
+
+---
+
+## 线上环境
+
+| 服务 | 地址 |
+|------|------|
+| 后台管理 | http://221.237.11.62:10087 |
+| 后端 API | http://221.237.11.62:10087/prod-api |
+| 后端端口 | 7500 |
+
+---
+
+## 商城功能
+
+- 🛍️ 商品管理（SPU/SKU）
+- 📦 订单管理与跟踪
+- 🗂️ 珠宝分类：钻石 / 黄金 / 珍珠 / 18K金 / 情侣对戒
+- 🛒 购物车 & 收货地址
+- 👤 小程序用户管理
+- 💬 微信公众号管理（消息/菜单/素材/自动回复）
+- 📊 营销数据统计
+- ⚙️ 系统配置（角色/权限/菜单/字典）
+
+---
+
+## 本地启动
+
+### 环境要求
+
+- JDK 17
+- MySQL ≥ 5.7
+- Redis
+- Maven ≥ 3.0
+- Node.js ≥ 16
+
+### 后端
+
+```bash
+cd joolun-wx
+mvn clean package -DskipTests
+
+JAVA_HOME=/opt/homebrew/opt/openjdk@17 \
+  java -jar joolun-admin/target/joolun-admin.jar
+```
+
+### 前端
+
+```bash
+cd joolun-wx-ui
+npm install
+npm run dev
+```
+
+### 小程序
+
+使用微信开发者工具导入 `joolun-wx-ma` 目录，AppID 填写 `wx90d04cb5be0b72d5`。
+
+---
+
+## 部署（服务器）
+
+```bash
+# 重新编译
+cd joolun-wx
+JAVA_HOME=/opt/homebrew/opt/openjdk@17 \
+  mvn clean package -DskipTests
+
+# 上传 jar 并重启（服务器 221.237.11.62）
+scp joolun-admin/target/joolun-admin.jar cheung.chen@221.237.11.62:~/app/
+ssh cheung.chen@221.237.11.62 'sudo systemctl restart joolun'
+```
+
+---
+
+## 版本记录
+
+详见 [CHANGELOG.md](./CHANGELOG.md)
+
+| 版本 | 日期 | 主要内容 |
+|------|------|---------|
+| v1.0.6 | 2026-03-14 | 修复未登录用户无法浏览商品/分类 |
+| v1.0.5 | 2026-03-14 | 小程序首页品牌化改造（金色主题、珠宝分类图标） |
+| v1.0.4 | 2026-03-14 | 服务器部署完成，注入珠宝商品数据 |
+| v1.0.3 | 2026-03-13 | 微信小程序 AppID/Secret 配置 |
+| v1.0.2 | 2026-03-13 | 后台配色改为 Tiffany 绿风格 |
+| v1.0.1 | 2026-03-13 | 品牌化改造，系统更名为千叶珠宝 |
+| v1.0.0 | 2026-03-13 | 基于 JooLun-wx 初始化项目 |
+
+---
+
+## License
+
+MIT
